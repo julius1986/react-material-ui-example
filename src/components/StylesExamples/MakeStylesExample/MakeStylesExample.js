@@ -33,10 +33,3 @@ const useStyles2 = makeStyles({
     border: "1px solid black",
   },
 });
-
-const useStyles3 = makeStyles({
-  root: {
-    color: "coral",
-    border: "1px solid black",
-  },
-});

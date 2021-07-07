@@ -1,7 +1,7 @@
 import { Button, withStyles } from "@material-ui/core";
 import React, { Component } from "react";
 
-class ClassComponentTest extends Component {
+class ClassComponentExample extends Component {
   render() {
     const { classes } = this.props;
     return (
@@ -22,4 +22,4 @@ const someStyles = withStyles({
   },
 });
 
-export default someStyles(ClassComponentTest);
+export default someStyles(ClassComponentExample);
