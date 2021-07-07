@@ -5,12 +5,27 @@ JSS(библиотека) — стилизация css на языке Javascrip
 
 ## makeStyles/useStyles
 
-Является аналогом для withStyles. makeStyles/useStyles - используются в функциональных компонентах.
+Является аналогом для withStyles. makeStyles/useStyles - используются в только функциональных компонентах.
 
 ## withStyles
 
-Создает классы стилей для классовых компонентов.
+Создает классы стилей для классовых компонентов, так же можно использовать и для функциональных.
 
 ## createStyles
 
-Создает классы к которым можно обращаться через точку. classes.root | classes.myOwnClass
+Создает классы к которым можно обращаться через точку. classes.root | classes.myOwnClass.
+
+## передача или переопределение классов.
+
+Передачи конкретных классов осуществляется в className. 
+```JS
+<el className={withStylesObj.root}> 
+```
+Для перегрузки классов передаем в classes. 
+```JS
+<el classes={makeStylesObj}> 
+```
+Вжно! В classes можно просто передать обьект с названиями классов.
+```JS
+<el classes={{root:"button", label:"button-label"}}> 
+```

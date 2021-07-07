@@ -27,11 +27,16 @@ const useStyles1 = makeStyles({
   },
 });
 
-
-
 const useStyles2 = makeStyles({
-    root: {
-      color: "coral",
-      border: "1px solid black",
-    },
-  });
+  root: {
+    color: "coral",
+    border: "1px solid black",
+  },
+});
+
+const useStyles3 = makeStyles({
+  root: {
+    color: "coral",
+    border: "1px solid black",
+  },
+});
