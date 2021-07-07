@@ -17,15 +17,15 @@ JSS(библиотека) — стилизация css на языке Javascrip
 
 ## передача или переопределение классов.
 
-Передачи конкретных классов осуществляется в className. 
-```JS
+Передачи конкретных классов осуществляется в className.
+```HTML
 <el className={withStylesObj.root}> 
 ```
 Для перегрузки классов передаем в classes. 
-```JS
+```HTML
 <el classes={makeStylesObj}> 
 ```
 Вжно! В classes можно просто передать обьект с названиями классов.
-```JS
+```HTML
 <el classes={{root:"button", label:"button-label"}}> 
 ```
