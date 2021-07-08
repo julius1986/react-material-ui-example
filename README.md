@@ -95,7 +95,7 @@ return (
 )
 ```
 
-## передача или переопределение классов
+## Передача или переопределение классов
 
 Передачи конкретных классов осуществляется в className.
 ```HTML
@@ -105,7 +105,7 @@ return (
 ```HTML
 <el classes={makeStylesObj}> 
 ```
-<strong>Вжно!</strong> В classes можно просто передать обьект с названиями классов.
+<strong>Вжно.</strong> В classes можно просто передать обьект с названиями классов.
 ```HTML
 <el classes={{root:"button", label:"button-label"}}> 
 ```
